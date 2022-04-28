@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Studend Registration Form</h1>
+    <form action="request.php" method="get">
+    <label for="name">Name</label>
+    <input type="text" name="stu_name" id="name" required placeholder="Name">
+    <br><br>
+    <label for="email">Email</label>
+    <input type="email" name="stu_email" id="email">
+    <br><br>
+    <label for="password">Password</label>
+    <input type="password" name="stu_password" id="password">
+    <br><br>
+    <label for="phone">Phone</label>
+    <input type="number" name="stu_number" id="phone">
+    <br><br>
+    <label for="passport">Passport</label>
+    <input type="file" accept=".png" name="stu_passport" id="passport">
+    <br><br>
+    <label for="">Gender</label>
+    <br>
+    <input type="radio" name="gender" id="male" value="male"><label for="male">male</label>
+    <input type="radio" name="gender" id="female" value="femal"><label for="femal">femal</label>
+    <input type="radio" name="gender" id="other" value="other"><label for="other">Other</label>
+    <br><br>
+    <button>Submit</button>
+</form>
+</body>
+</html>
