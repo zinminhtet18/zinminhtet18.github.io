@@ -12,24 +12,65 @@
     <label for="name">Name</label>
     <input type="text" name="stu_name" id="name" required placeholder="Name">
     <br><br>
+
     <label for="email">Email</label>
-    <input type="email" name="stu_email" id="email">
+    <input type="email" name="stu_email" id="email" required placeholder="Email">
     <br><br>
+
     <label for="password">Password</label>
     <input type="password" name="stu_password" id="password">
     <br><br>
+
     <label for="phone">Phone</label>
     <input type="number" name="stu_number" id="phone">
     <br><br>
+
     <label for="passport">Passport</label>
     <input type="file" accept=".png" name="stu_passport" id="passport">
     <br><br>
+
     <label for="">Gender</label>
     <br>
+
     <input type="radio" name="gender" id="male" value="male"><label for="male">male</label>
     <input type="radio" name="gender" id="female" value="femal"><label for="femal">femal</label>
     <input type="radio" name="gender" id="other" value="other"><label for="other">Other</label>
     <br><br>
+
+    <label for="">Hobby</label>
+    <br><br>
+    <input type="checkbox" name="reading" id="reading" value="reading"><label for="reading">Reading</label>
+    <input type="checkbox" name="travelling" id="travelling" value="travelling"><label for="travelling">Travelling</label>
+    <input type="checkbox" name="gaming" id="gaming" value="gaming"><label for="gaming">Gaming</label>
+    <br><br>
+
+    <label for="year">Years</label>
+    <select name="year" id="year">
+        <option value="">Choose Your Year</option>
+        <option value="first">First year</option>
+        <option value="second">Second year</option>
+        <option value="third">Third year</option>
+    </select>
+    <br><br>
+
+    <label for="dob">Birthday</label>
+    <input type="date" name="stu_dob" id="dob">
+    <br><br>
+
+    <label for="address">Address</label>
+    <textarea name="stu_address" id="address" cols="30" rows="10"></textarea>
+    <br><br>
+
+    <label for="time">Time</label>
+    <input type="time" name="" id="">
+    <br>
+    <input type="datetime-local" name="" id="">
+    <br>
+    <input type="color" name="color" id="">
+    <br>
+    <input type="range" name="range" id="" min="10" max="100" value="15">
+    <br><br>
+
     <button>Submit</button>
 </form>
 </body>
