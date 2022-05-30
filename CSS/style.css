@@ -1,0 +1,98 @@
+h1{
+    color: blue;
+    color: #f00;
+    color: #ff0000;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    text-transform: uppercase;
+}
+small{
+    color: brown;
+    display: block;
+    text-indent: 90px;
+    line-height: 20px;
+    letter-spacing: 10px;
+    text-align: justify;
+}
+
+/* Universal selector */
+*{
+    color: green;
+}
+
+/* tag/element */
+span{
+    color: #ff0000;
+}
+/* Attributeselector*/
+a[ target="_blank"]{
+    color: yellow;
+}
+
+.borderone{
+    border: 10px dotted yellow;
+}
+.bordertwo{
+    border-bottom: 5px solid red;
+    border-top: 5px solid yellow;
+}
+.borderstyle{
+    border-style: dotted;
+}
+.borderstylemix{
+    border-style: solid;
+    /* all four*/
+    border-style:dashed solid double dotted ;
+}
+.borderwidth{
+    border-width: 20px 1px;
+    border-style: solid;
+}
+.margin{
+    margin: 50px 10px 100px;
+    border: 1px solid black;
+
+}
+.marginone{
+    margin-left: 100px;
+}
+.paddingone{
+    padding: 100px;
+    border: 1px solid black;
+}
+.padding{
+    border: 1px solid red;
+    padding-top: 100px;
+}
+.inline{
+    border: 1px solid red;
+    display: inline-block;
+    width: 400px;
+}
+.block{
+    border: 1px solid red;
+    width: 400px;
+    display: inline-block;
+}
+.float_left img{
+    width: 40%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.float_right img{
+    width: 40%;
+    float: right;
+}
+.online{
+    font-family: 'Smooch', cursive;
+}
+@font-face {
+    font-family:a ;
+    src: url(Signika_Negative/OFL.txt);
+}
+.offline{
+    font-family: a;
+    font-size: 30px;
+}
